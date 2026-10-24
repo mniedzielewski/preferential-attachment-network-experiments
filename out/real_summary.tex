@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Charakterystyka sieci (udziały schematów A/B/C), estymaty MLE, test spójności wykładnika ogona (MLE wobec Hilla) oraz odległość Kołmogorowa--Smirnowa w~walidacji predykcyjnej, zestawiona z~kontrolą bazową (prognoza \enquote{nic się nie zmienia}).}
+    \label{tab:real-summary}
+    \small
+    \begin{tabular}{lcccccc}
+        \toprule
+        sieć & $N$ & A/B/C [\%] & $\hat\beta$ & $\hat\tau_{in}$ (MLE/Hill) & $\hat\tau_{out}$ (MLE/Hill) & KS$_{in}$ (model/kontrola) \\
+        \midrule
+        \texttt{email-Eu} & 985 & 0.1/99.7/0.2 & 0.997 & 2.01\,/\,4.21 & 2.00\,/\,2.95 & 0.235\,/\,0.081 \\
+        \texttt{CollegeMsg} & 1855 & 1.0/96.9/2.2 & 0.969 & 2.15\,/\,4.61 & 2.09\,/\,2.93 & 0.102\,/\,0.036 \\
+        \texttt{Reddit} & 33488 & 7.6/88.1/4.3 & 0.881 & 2.09\,/\,2.37 & 2.13\,/\,2.63 & 0.019\,/\,0.003 \\
+        \texttt{MathOverflow} & 20771 & 6.8/80.5/12.7 & 0.805 & 2.41\,/\,2.89 & 2.14\,/\,2.97 & 0.019\,/\,0.025 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

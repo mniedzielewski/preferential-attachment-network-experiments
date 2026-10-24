@@ -1,0 +1,12 @@
+email-Eu@0.5
+email-Eu@0.7
+email-Eu@0.9
+CollegeMsg@0.5
+CollegeMsg@0.7
+CollegeMsg@0.9
+Reddit@0.5
+Reddit@0.7
+Reddit@0.9
+MathOverflow@0.5
+MathOverflow@0.7
+MathOverflow@0.9
